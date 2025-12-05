@@ -217,5 +217,6 @@ export const az = {
     copyright: "Bütün hüquqlar qorunur. Copyright © 2015–",
     beta_text: "Azintelecom MMC.Beta",
     beta_link_text: "Müraciət formuna",
-    topics: "Mövzular\n"
+    topics: "Mövzular\n",
+    loading: "Yuklenir"
 };

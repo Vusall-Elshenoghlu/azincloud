@@ -1,5 +1,7 @@
 const colors = {
     headerNavBg: '#0E1726',
+    main_bg_color: 'white',
+    activeLiColor: '#3E6F00',
     mainBg: '#edeef1',
     mainGreen: '#00b04e',
     btnBgColor: '#1890ff',

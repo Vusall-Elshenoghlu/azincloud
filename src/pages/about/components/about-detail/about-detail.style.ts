@@ -127,6 +127,6 @@ const styles = {
             fontSize: rem(14),
         },
     },
-};
+} as const;
 
 export const useAboutDetailStyles = createUseStyles(styles);

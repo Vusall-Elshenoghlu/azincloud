@@ -12,6 +12,7 @@ import { useStore } from './store/store.config';
 import { useEffect, useState } from 'react';
 import AboutComponent from './pages/about/components/about.component';
 import ContactPageComponent from "./pages/contact/contact-page.component";
+import MemoryCardGame from "./pages/memory-card-game/memory-card-game.component";
 
 const queryClient = new QueryClient();
 
@@ -40,7 +41,7 @@ function App() {
                 <div className='App'>
 
                     {isOffline ? (
-                        <ContactPageComponent/>
+                        <MemoryCardGame/>
                     ) : (
                         <>
                             <RouterProvider router={router} />
